@@ -1,6 +1,6 @@
 {
   "name": "razzle-plugin-flow",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Use Flow with Razzle",
   "main": "index.js",
   "repository": "git@github.com:pugnascotia/razzle-plugin-flow.git",
@@ -12,11 +12,12 @@
   "dependencies": {
     "babel-preset-flow": "^6.23.0",
     "eslint-plugin-flowtype": "^2.49.3",
-    "flow-bin": "^0.74.0",
     "flow-webpack-plugin": "^1.2.0"
   },
   "devDependencies": {
     "razzle": "^2.2.0"
   },
-  "peerDependencies": {}
+  "peerDependencies": {
+    "flow-bin": "^0.x"
+  }
 }
